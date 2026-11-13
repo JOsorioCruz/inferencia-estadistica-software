@@ -537,7 +537,7 @@ s = √( Σ(xᵢ − x̄)² / (n − 1) )
 
 σ = √( Σ(xᵢ − x̄)² / n )
 
-**Resultado.** n = 1.000; x̄ = 14,0208 min; s (ddof = 1) = 3,9608 min; desviación con ddof = 0 = 3,9588 min. La diferencia es de dos milésimas porque con n = 1.000 dividir entre 999 o entre 1.000 casi no cambia. Como contexto, la mediana es 14,1 min, el mínimo 2,0 min y el máximo 27,4 min.
+**Resultado.** n = 1.000; x̄ = 14,0208 min; s (ddof = 1) = 3,9608 min, y la desviación con ddof = 0 es 3,9588 min. La diferencia es de dos milésimas porque con n = 1.000 dividir entre 999 o entre 1.000 casi no cambia. Como contexto, la mediana es 14,1 min, el mínimo 2,0 min y el máximo 27,4 min.
 
 **Verificación con Python.** np.mean, np.std(ddof = 1) y np.std(ddof = 0) en el notebook dan exactamente esos valores.
 
